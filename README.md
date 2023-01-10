@@ -59,7 +59,7 @@ sudo -H pip3 install setuptools==58.3.0
 sudo -H pip3 install Cython
 # install gdown to download from Google drive
 sudo -H pip3 install gdown
-# 下载.whl文件，在whl文件下已经下载好了
+# 下载.whl文件
 gdown https://drive.google.com/uc?id=1aWuKu8eqkZwVzFFvguVuwkj0zdCir9qX
 # 安装PyTorch 1.7.0
 sudo -H pip3 install torch-1.7.0a0-cp36-cp36m-linux_aarch64.whl
@@ -71,7 +71,7 @@ rm torch-1.7.0a0-cp36-cp36m-linux_aarch64.whl
 sudo apt-get install libjpeg-dev zlib1g-dev libpython3-dev
 sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev
 sudo pip3 install -U Pillow==8.3.1
-# 安装gdown，从drive.google上下载.whl文件，因为是外网，不开VPN会下载失败，所以在whl文件夹中有已经下载好了的文件。
+# 安装gdown，从drive.google上下载.whl文件，因为是外网，不开VPN会下载失败。
 sudo -H pip3 install gdown
 # download TorchVision 0.8.0
 gdown https://drive.google.com/uc?id=1P0xyPT-WIWglqmT195OSyazV_1LPaHDa
